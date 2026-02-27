@@ -258,8 +258,7 @@ const char *nombreMano(Mano m) {
 }
 
 int main() {
-    printf("/* Elaborado por Ollin Enrique Casañas de la Cruz */\n");
-
+    
     srand((unsigned int)time(NULL));
 
     Carta baraja[52];
