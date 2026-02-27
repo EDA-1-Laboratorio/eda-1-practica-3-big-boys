@@ -31,10 +31,10 @@ double areaInterseccion(Circulo c1, Circulo c2) {
 int main() {
     Circulo c1, c2;
 
-    printf("Ingresa x, y y radio del primer circulo: ");
+    printf("Ingresa 'x', 'y' y 'radio' del primer circulo: ");
     scanf("%lf %lf %lf", &c1.x, &c1.y, &c1.r);
 
-    printf("Ingresa x, y y radio del segundo circulo: ");
+    printf("Ingresa 'x', 'y' y 'radio' del segundo circulo: ");
     scanf("%lf %lf %lf", &c2.x, &c2.y, &c2.r);
 
     if (c1.r <= 0 || c2.r <= 0) {
