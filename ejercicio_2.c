@@ -73,8 +73,7 @@ double calcularDescuentoPorTamano(Pizza pizzas[], int n, int tamano) {
 }
 
 int main() {
-    printf("/* Elaborado por Ollin Enrique Casañas de la Cruz */\n");
-
+    
     int n;
     Pizza pizzas[MAX_PIZZAS];
 
